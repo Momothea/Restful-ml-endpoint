@@ -95,6 +95,7 @@ class Classify(Resource):
               "predicted_array" : prediction.tolist()}
 
 
+
 api.add_resource(StudentsList, '/students/')
 api.add_resource(Student, '/students/<student_id>')
 api.add_resource(Classify, '/classify/<image_id>')
