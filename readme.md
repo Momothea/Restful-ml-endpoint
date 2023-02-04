@@ -1,5 +1,4 @@
 # Restful-ml-endpoint
-# Restful-ml-endpoint
 
 run the code:
 
