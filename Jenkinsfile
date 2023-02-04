@@ -24,7 +24,7 @@ pipeline {
         stage('build a Docker image and test container') {
             steps {
                 sh'docker build -t flask_api .'
-                sh'docker run -d -p 3000:3000 flask_api'
+                sh'docker run -d -p 5000:5000 flask_api'
             }
         }
         
